@@ -1,5 +1,5 @@
-.border {
-  border: 1px solid black;
+/*.border {
+  border: 1px solid black;*/
 }
 body {
   margin: 0;
@@ -11,6 +11,11 @@ body {
   border-bottom: 1px solid black;
   padding: 10px 10px;
   display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: white;
+  margin-top: 0;
 }
 
 .topContainer h4 {
@@ -41,12 +46,20 @@ nav {
   justify-content: center;
   margin: 10px;
   align-content: stretch;
+  padding-top: 65px;
 }
 .columnA {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 630px;
   margin: 15px;
+}
+.sectionA2 {
+  width: 300px;
+}
+.sectionA3 {
+  width: 300px;
 }
 .columnB {
   display: flex;
@@ -59,6 +72,31 @@ margin: 15px;
   flex-direction: column;
 width: 240px;
 margin: 15px;
+}
+.sectionC2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.ul {
+  margin: 0;
+  padding: 0;
+  background-color: WhiteSmoke;
+}
+.p {
+ font-family: Verdana;
+ font-size: 12px;
+ color: DimGray;
+ border-bottom: 1px solid black;
+ list-style: none;
+ height: 25px;
+}
+.newsBites {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
                       /* general */
@@ -79,17 +117,58 @@ margin: 15px;
   font-size: 40px;
   color: white;
 }
-
               /*images */
 .cat {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  display: flex;
+  height: 300px;
 }
 .fall {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  display: flex;
+  height: 300px;
 }
 .hipster {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  display: flex;
+  height: 300px;
 }
 .mainPhoto {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  display: flex;
+  height: 300px;
+}
+
+              /* Footer */
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.superFoot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 20px;
+}
+.myTimes {
+  font-family: Georgia;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
+}
+.bottomNav {
+  color: black;
+  margin-left: 5px;
+}
+.footMargin {
+  margin: 10px 10px;
 }
