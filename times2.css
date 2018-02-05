@@ -1,0 +1,41 @@
+.border {
+  border: 1px solid black;
+}
+body {
+  margin: 0;
+}
+
+
+                    /* Top Container*/
+.topContainer {
+  border-bottom: 1px solid black;
+  padding: 10px 10px;
+  display: flex;
+}
+
+.topContainer h4 {
+  color: mediumaquamarine;
+}
+.topContainer a {
+color: black;
+}
+.margin-right {
+  margin-right: 10px;
+}
+.topText {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+nav {
+  width: 600px;
+  align-self: center;
+  margin-left: 1400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+                    /* Main Container */
+.mainContainer {
+  display: flex;
+}
